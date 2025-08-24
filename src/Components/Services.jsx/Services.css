@@ -1,0 +1,15 @@
+.col-md-3 {
+  padding: 0 !important;
+}
+.service-card {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: white;
+  transition: 1s all ease-in-out;
+}
+.services-container{
+  background-color:#f8f9fa;
+}
+.service-card:hover {
+  transform: scale(1.04);
+}

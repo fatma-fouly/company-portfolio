@@ -1,0 +1,14 @@
+
+.about-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 1s ease-in-out;
+}
+.about-card h3 {
+  color: #03631a; /* Green color for headings */
+}
+.about-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}

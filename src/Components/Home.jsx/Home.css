@@ -1,0 +1,34 @@
+.hero-section {
+  height: 100vh; /* يخلي الهيرو يغطي طول الشاشة */
+  background: url("../../assets/home1.jpg") no-repeat center center/cover;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* طبقة شفافة لتوضيح النص */
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2; /* عشان النص يكون فوق الطبقة الشفافة */
+}
+.btn2 {
+      background: linear-gradient(0.25turn ,rgb(1, 105, 1), #4efa73) !important;
+     border: none !important;
+     width: 150px;
+     border-radius: 20px;
+     transition: 0.8s all ease-in-out !important;
+}
+.btn2:hover {
+  background: linear-gradient(0.25turn ,#4efa73, rgb(1, 105, 1)) !important;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
