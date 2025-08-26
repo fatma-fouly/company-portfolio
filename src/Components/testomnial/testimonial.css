@@ -1,3 +1,9 @@
 #testimonials img {
     border-radius: 50% !important;
 }
+.slider {
+padding: 15px;
+font-weight: bold;
+width: 65%;    
+background: linear-gradient(0.45turn ,rgb(1, 105, 1), #c3fbcf) !important;
+}

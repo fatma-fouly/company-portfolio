@@ -1,6 +1,6 @@
 .hero-section {
   height: 100vh; /* يخلي الهيرو يغطي طول الشاشة */
-  background: url("../../assets/home1.jpg") no-repeat center center/cover;
+  background: url("../../assets/dubai-skyline.jpg") no-repeat center center/cover;
   position: relative;
 }
 
@@ -19,14 +19,16 @@
   z-index: 2; /* عشان النص يكون فوق الطبقة الشفافة */
 }
 .btn2 {
-      background: linear-gradient(0.25turn ,rgb(1, 105, 1), #4efa73) !important;
+      background: linear-gradient(0.25turn ,rgb(1, 105, 1), #c3fbcf) !important;
      border: none !important;
-     width: 150px;
+     width: 20rem;
      border-radius: 20px;
+     color: white;
      transition: 0.8s all ease-in-out !important;
 }
 .btn2:hover {
-  background: linear-gradient(0.25turn ,#4efa73, rgb(1, 105, 1)) !important;
+  background: linear-gradient(0.25turn ,#aefec0, rgb(1, 105, 1)) !important;
+  font-weight: bolder;
 }
 a{
   color: inherit;

@@ -1,5 +1,20 @@
-.contact-us{
-    background-color: #f8f9fa !important;
-    padding: 20px;
-    border-radius: 5px;
+.contact-section {
+  background-position: center;
+  min-height: 500px; /* ارتفاع مناسب */
+  display: flex;
+  align-items: flex-start; /* الفورم يبدأ من فوق */
+  padding-top: 80px; /* يخلي الفورم نازل لتحت */
+}
+.contact-section .row{
+ background: linear-gradient(0.25turn ,rgb(1, 105, 1), #c3fbcf) !important;
+ border-radius: 10px;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 12px;
+}
+
+form {
+    z-index: 999;
 }

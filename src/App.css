@@ -9,7 +9,7 @@ h2
   font-weight: 700;
   margin-bottom: 40px;
 }
-h2::after {
+h2:not(.swal2-title)::after {
      content: "";
   position: absolute;
   left: 50%;
@@ -19,7 +19,7 @@ h2::after {
   height: 3px;
   background-color: green;
 }
-h2::before{
+h2:not(.swal2-title)::before{
  content: "";
   position: absolute;
   left: 50%;

@@ -4,7 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Navbar from './Components/Navbar.jsx/Navbar';
+import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home.jsx/Home';
 import About from './Components/About/About';
 import Services from './Components/Services.jsx/Services';

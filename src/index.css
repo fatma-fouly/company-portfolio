@@ -15,4 +15,10 @@ code {
 a{
   color: inherit;
   text-decoration: none;
+  transition: all 0.5s ease-in;
+}
+.navbar-nav a:hover {
+  background-color: green !important;
+  border-radius: 5px;
+  color: white;
 }

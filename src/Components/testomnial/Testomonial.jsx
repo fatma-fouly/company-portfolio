@@ -19,7 +19,7 @@ export default function Testomonial() {
   return (
     <div  id='testimonials' >
       <h2> Client Testomnials </h2>
-      <Slider {...settings} className='my-5 container shadow-lg bg-success text-white pb-4 rounded-3' >
+      <Slider {...settings} className='slider my-5 container shadow-lg  text-white pb-4 rounded-3' >
         <div >     
             <div className='pt-5 px-5 rounded  d-flex align-items-start' >
             <img src={Mletter} alt="client image" className='border rounded me-2 bg-success' width={70} height={70} />
