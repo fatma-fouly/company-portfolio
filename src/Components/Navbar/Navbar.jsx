@@ -8,7 +8,7 @@ export default function Navbar() {
  <nav className="navbar navbar-expand-lg bg-white shadow opacity-75 fixed-top"> 
   <div className="container">
     <a className="navbar-brand" href="#">
-      <img src= {logo} alt='Al-aref logo ' height="72" width="130"  />
+      <img src= {logo} alt='Al-aref logo ' height="66" width="150"  />
     </a>
 
        {/* Toggle (for mobile)  */}

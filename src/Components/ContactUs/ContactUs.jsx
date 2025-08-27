@@ -10,7 +10,7 @@ export default function ContactUs() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "2dbaf302-bad0-4e68-9b06-2a04b74e5b8c");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -45,22 +45,23 @@ export default function ContactUs() {
             <h3 className='h2  text-white my-2'>Contact Us @t : </h3>
             <p className='text-white fw-bold my-4'><i className="fa-solid fa-phone"></i> : +97 2358740687</p>
             <p className='text-white fw-bold'><i className="fa-solid fa-envelope-circle-check"></i> : info@al-arif.net </p>
+            <p className='text-white fw-bold'><i class="fa-brands fa-facebook"></i> : facebook@al-arif.net </p>
           </div>
           <div className="col-md-5">
             <div className="contact-card shadow p-4 rounded">
               <h3 className="form-header text-center mb-3 text-muted">Be in touch</h3>
               <form onSubmit={onSubmit}>
                 <div className="mb-3 text-end ">
-                  <label htmlFor="name" className="form-label">Name</label>
-                  <input required type="text" className="form-control" id="name" required />
+                  <label htmlFor="name"  className="form-label">Name</label>
+                  <input required name='name' type="text" className="form-control" id="name"  />
                 </div>
                 <div className="mb-3 text-end">
                   <label htmlFor="email" className="form-label">Email</label>
-                  <input required type="email" className="form-control" id="email" required />
+                  <input required type="email" name='email' className="form-control" id="email"  />
                 </div>
                 <div className="mb-3 text-end">
                   <label htmlFor="message" className="form-label">Message</label>
-                  <textarea className="form-control" id="message" rows="4" ></textarea>
+                  <textarea name='message' className="form-control" id="message" rows="4" ></textarea>
                 </div>
                 <button type="submit" className="btn btn-success w-100">Submit</button>
               </form>

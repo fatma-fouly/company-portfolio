@@ -5,12 +5,12 @@ const Home = () => {
     <section className="hero-section d-flex align-items-center" id="home">
       <div className="container text-center text-white">
         <h1 className="display-4 fw-bold">Al-Aref Business Services</h1>
-        <p className="lead font-bold">
+        <p className="lead fw-bold my-3">
           Your trusted partner for company formation and business setup in UAE
         </p>
-        <button  className="btn btn2 btn-success btn-lg mt-3">
-           <a href="#contact"> Contatct Us   </a>
-        </button>
+       
+       
+           <a href="#contact"> <button  className="btn btn2 btn-success btn-lg mt-3"> Contact Us </button> </a>
       </div>
     </section>
   );

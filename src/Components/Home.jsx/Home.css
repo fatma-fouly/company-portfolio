@@ -1,6 +1,7 @@
 .hero-section {
   height: 100vh; /* يخلي الهيرو يغطي طول الشاشة */
-  background: url("../../assets/dubai-skyline.jpg") no-repeat center center/cover;
+  background: url("../../assets/desert-road-with-duba.jpg") center no-repeat ;
+  background-size: cover;
   position: relative;
 }
 
