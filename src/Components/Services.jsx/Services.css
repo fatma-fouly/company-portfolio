@@ -13,3 +13,10 @@
 .service-card:hover {
   transform: scale(1.04);
 }
+.text-truncate-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* عدد الأسطر */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

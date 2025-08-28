@@ -10,7 +10,7 @@ const Home = () => {
         </p>
        
        
-           <a href="#contact"> <button  className="btn btn2 btn-success btn-lg mt-3"> Contact Us </button> </a>
+           <a href="/contact-only" target="_blank"> <button  className="btn btn2 btn-success btn-lg mt-3"> Contact Us </button> </a>
       </div>
     </section>
   );

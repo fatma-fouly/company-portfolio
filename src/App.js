@@ -12,23 +12,36 @@ import Departments from './Components/departments/Departments';
 import WhyUs from './Components/why us/WhyUs';
 import Testomonial from './Components/testomnial/Testomonial';
 import ContactUs from './Components/ContactUs/ContactUs';
-import Footer from './Components/ContactUs/footer/Footer';
+import Footer from './Components/footer/Footer';
+
+import { BrowserRouter as Router  , Route , Routes } from "react-router-dom";
+import Contactpage from "./Components/ContactUs/Contactpage";
 
 
 
 function App() {
   return (
     <div className="App">
-     
-      <Navbar  />
-      <Home />
-      <About />
-      <Services />
-      <Departments />
-      <WhyUs />
-      <Testomonial />
-      <ContactUs />
-      <Footer  />
+    <Navbar  />  
+
+     <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Home />
+              <About />
+              <Services />
+              <Departments />
+              <WhyUs />
+              <Testomonial />
+              <ContactUs />
+            </>
+          }
+        />
+        <Route path="/contact-only" element={<Contactpage />} />
+      </Routes>
+          <Footer />
     </div>
   );
 }
