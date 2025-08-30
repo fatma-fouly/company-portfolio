@@ -37,7 +37,7 @@ export default function ContactUs() {
   };
   return (
     <div className='contact-us my-4' id='contact'>
-      <h2>Contact Us</h2>
+      {/* <h2>Contact Us</h2> */}
      <section className='contact-section  pt-3 mt-4' id='contact'>
       <div className="container">
         <div className="row justify-content-center py-3 ">

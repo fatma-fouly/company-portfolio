@@ -2,8 +2,11 @@ import React from 'react'
 import logo  from '../../assets/logo.png' // Adjust the path as necessary
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+const navigate =useNavigate()
+
   return (
  <nav className="navbar navbar-expand-lg bg-white shadow opacity-75 fixed-top"> 
   <div className="container">
@@ -12,7 +15,7 @@ export default function Navbar() {
     </a>
 
        {/* Toggle (for mobile)  */}
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <button className="navbar-toggler"   type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span className="navbar-toggler-icon"></span>
     </button>
 
