@@ -103,7 +103,7 @@ export default function Contactpage() {
 
     <div>
     <div className="row mx-auto container">
-      <section className="col-lg-5 d-flex flex-column justify-content-center align-items-center">
+      <section className="col-lg-5 d-flex flex-column pt-5 mt-5 justify-content-center align-items-center">
         <h3 className="text-end fw-bold  mb-3 h2 text-success">
           <i className="fa-solid fa-server"></i> {service.title}
         </h3>
@@ -116,7 +116,7 @@ export default function Contactpage() {
         </div>
       </section>
 
-      <div className="my-4 py-5 col-lg-7">
+      <div className="mt-5 pt-5 col-lg-7">
         <ContactUs />
       </div>
     </div>

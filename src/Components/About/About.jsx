@@ -31,7 +31,7 @@ export default function About () {
           </div>
           {/* image */}
           <div className="col-md-6 mb-5 mt-5">
-              <img src= {about} className='w-100' alt="" />
+              <img src= {about} className='w-100' alt="" loading='lazy' />
             </div>
         </div>
       </div>

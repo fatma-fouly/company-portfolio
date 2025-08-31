@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Departments() {
   return (
-    <div id='departments' className='departments-container my-5'>
+    <div id='departments' className='departments-container my-5 px-2'>
               <h2 className="text-center mb-4">Our Departments</h2>
         <div className="container">
               <div className="row pt-3 justify-content-center gap-5 my-3"> 
