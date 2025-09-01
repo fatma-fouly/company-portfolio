@@ -24,7 +24,7 @@ export default function Services() {
           <div className="col-md-3  border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={formation} alt="Service" height={200} className="w-100 d-block"  loading='lazy'/>
+                <img src={formation} alt="company formation Service" height={200} className="w-100 d-block"  loading='lazy'/>
                 <h3 className="my-2 text-center text-success">Company Formation</h3>
                 <p className="px-3 text-end text-truncate-3">
                   We provide company formation services for various types of businesses, including sole proprietorships and limited liability companies. Our legal experts offer comprehensive consultations on the appropriate company structure and assist you with preparing the required documents and registering with the relevant government authorities...
@@ -43,7 +43,7 @@ export default function Services() {
           <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={trade} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={trade} alt="Trade License Renewal  Service" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Trade License Renewal</h4>
                 <p className="px-3 text-end text-truncate-3">
                   We simplify the process of renewing your trade license to ensure continuity
@@ -61,7 +61,7 @@ export default function Services() {
           <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={cancellation} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={cancellation} alt=" Cancellation License Service" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Cancellation License</h4>
                 <p className="px-3 text-end text-truncate-3">
                    If you decide to close your business, we offer trade license cancellation
@@ -80,7 +80,7 @@ export default function Services() {
            <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={bankimg} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={bankimg} alt="Bank Account Opening Service" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Bank Account Opening</h4>
                 <p className="px-3 text-end text-truncate-3">
                      Assistance with opening local and international bank accounts through
@@ -99,7 +99,7 @@ export default function Services() {
            <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={corporate} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={corporate} alt="Corporate Sponsorship Service" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Corporate Sponsorship</h4>
                 <p className="px-3 text-end text-truncate-3">
                      We provide corporate sponsorship services to help you obtain a reliable
@@ -117,7 +117,7 @@ export default function Services() {
            <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={partner} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={partner} alt="Partner Addition Service" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Partner Addition</h4>
                 <p className="px-3 text-end text-truncate-3">
                      Whether you wish to add a new partner or withdraw an existing one, we manage
@@ -135,7 +135,7 @@ export default function Services() {
            <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={service3} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={service3} alt="Government Transactions Service  " height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Government Transaction</h4>
                 <p className="px-3 text-end text-truncate-3">
                       We handle the completion of government transactions and procedures on your
@@ -153,7 +153,7 @@ export default function Services() {
            <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={service2} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={service2} alt="Tourist Visa Service" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Tourist Visa Services</h4>
                 <p className="px-3 text-end text-truncate-3">
                        We assist travelers in obtaining tourist visas with ease and efficiency. Our team provides full support throughout the application process, ensuring all documents are prepared correctly and submitted on time. Whether you're planning a short vacation or a long stay, we help you secure the right visa smoothly and stress-free...
@@ -170,10 +170,10 @@ export default function Services() {
            <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={family} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={family} alt="Family Sponsorship Service" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Family Sponsorship</h4>
                 <p className="px-3 text-end text-truncate-3">
-                We support individuals who wish to bring their family members to join them abroad. Our service guides you through the sponsorship process, helping with the required documentation, application submission, and compliance with immigration regulations to ensure a smooth and successful family reunion....
+                  We support individuals who wish to bring their family members to join them abroad. Our service guides you through the sponsorship process, helping with the required documentation, application submission, and compliance with immigration regulations to ensure a smooth and successful family reunion....
                 </p>
               </div>
               <div className="p-3">
@@ -187,7 +187,7 @@ export default function Services() {
            <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={tax} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={tax} alt="Tax Registration Service" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Tax Registration</h4>
                 <p className="px-3 text-end text-truncate-3">
                 We assist businesses in registering with the Federal Tax Authority to obtain a Tax Registration Number (TRN). Our service ensures compliance with UAE tax regulations and provides full support throughout the application process...
@@ -204,7 +204,7 @@ export default function Services() {
            <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={certificate} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={certificate} alt="SCertificate Attestation ervice" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Certificate Attestation</h4>
                 <p className="px-3 text-end text-truncate-3">
                We provide professional certificate attestation services for academic, personal, and commercial documents. This process authenticates your certificates, making them legally recognized within the UAE and abroad...
@@ -221,7 +221,7 @@ export default function Services() {
            <div className="col-md-3 border border-1 shadow-sm my-2 h-100">
             <div className="service-card d-flex flex-column justify-content-between h-100 text-end">
               <div>
-                <img src={notary} alt="Service" height={200} className="w-100 d-block" loading='lazy' />
+                <img src={notary} alt="Notary Public Services" height={200} className="w-100 d-block" loading='lazy' />
                 <h4 className="my-2 text-success text-center">Notary Public Services</h4>
                 <p className="px-3 text-end text-truncate-3">
                 We offer notary public services for the legalization of official documents, contracts, and declarations. Our support ensures that all documents are notarized in accordance with UAE law, granting them full legal validity...

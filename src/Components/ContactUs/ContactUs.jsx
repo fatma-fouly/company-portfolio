@@ -3,7 +3,7 @@ import './contactus.css'
 import Swal  from 'sweetalert2';  
 
 export default function ContactUs() {
-   const [result, setResult] = React.useState("");
+   const [ setResult] = React.useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();

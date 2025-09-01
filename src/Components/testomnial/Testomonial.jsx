@@ -24,7 +24,7 @@ export default function Testomonial() {
         <Slider {...settings} className='slider col-md-7 col-sm-11 my-5 mx-auto shadow-lg  text-white pb-4 rounded-3' >
         <div >     
             <div className='pt-5 rounded d-flex align-items-start' >
-            <img src={Mletter} alt="client image" className='border rounded me-2 bg-success' width={70} height={70} />
+            <img src={Mletter} alt="client feedback 1" className='border rounded me-2 bg-success' width={70} height={70} />
             <p> “Choosing <strong>Al-Aref Business Services</strong> was the best decision for our company. 
               Their services helped us significantly reduce the time spent on government procedures and bureaucracy.”</p>
             </div> 
@@ -32,7 +32,7 @@ export default function Testomonial() {
         </div>
         <div >     
             <div className='pt-5  rounded  d-flex align-items-start' >
-            <img src={Sletter} alt="client image" className='border rounded me-2 bg-success' width={70} height={70} />
+            <img src={Sletter} alt="client feedback 2" className='border rounded me-2 bg-success' width={70} height={70} />
             <p> “The accuracy and efficiency of Al-Aref’s team are unmatched. We found quick and simplified solutions for all our legal and employment services.”</p>
             </div> 
             <h6 className='text-white'> — Sara El-Gamal, General Manager of Amwaj Real Estate Development</h6>

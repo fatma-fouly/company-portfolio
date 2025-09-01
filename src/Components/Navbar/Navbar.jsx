@@ -1,16 +1,15 @@
-import React from 'react'
 import logo  from '../../assets/logo.png' // Adjust the path as necessary
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { useNavigate } from 'react-router-dom';
+
 
 export default function Navbar() {
-const navigate =useNavigate()
+
 
   return (
  <nav className="navbar navbar-expand-lg bg-white shadow opacity-75 fixed-top"> 
   <div className="container">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand" href="#home">
       <img src= {logo} alt='Al-aref logo ' height="66" width="150"  />
     </a>
 
