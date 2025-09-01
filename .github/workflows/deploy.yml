@@ -34,5 +34,5 @@ jobs:
           username: ${{ secrets.SECRET2 }}
           password: ${{ secrets.SECRET3 }}
           protocol: ftp
-          local-dir: ./build
+          local-dir: ./build/
           server-dir: public_html
