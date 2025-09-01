@@ -3,9 +3,18 @@ name: Deploy to Hostinger
 on:
   push:
     branches:
-      - master   
+      - master
 
 jobs:
+  test-secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test FTP secrets
+        run: |
+          echo "Host: ${{ secrets.FTP_HOST }}"
+          echo "Username: ${{ secrets.FTP_USERNAME }}"
+          echo "Password length: ${#${{ secrets.FTP_PASSWORD }}}"
+
   deploy:
     runs-on: ubuntu-latest
 
