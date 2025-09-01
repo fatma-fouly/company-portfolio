@@ -109,7 +109,7 @@ export default function Contactpage() {
         </h3>
         <div className="border rounded-4 shadow-sm overflow-hidden ">
           <div className="p-3">
-            <img className='w-100 mb-3 mx-auto' height={250} src={service.img} alt=" Services image"  />
+            <img className='w-100 mb-3 mx-auto' height={250} src={service.img} alt=" Services "  />
             
             <p className="text-end h6 bg-white">{service.desc}</p>
           </div>
