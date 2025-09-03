@@ -30,3 +30,12 @@ h2:not(.swal2-title)::before{
   background-color: green;
 }
 
+body.ar .service-card h4,
+body.ar .service-card p {
+  text-align: right;
+}
+
+body.en .service-card h4,
+body.en .service-card p {
+  text-align: left;
+}

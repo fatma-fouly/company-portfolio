@@ -1,9 +1,11 @@
 import React from 'react'
 import './contactus.css'
 import Swal  from 'sweetalert2';  
+import { useTranslation } from 'react-i18next';
 
 export default function ContactUs() {
-   const [ setResult] = React.useState("");
+  const { t, i18n } = useTranslation("contact");
+   const [result , setResult] = React.useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -29,6 +31,7 @@ export default function ContactUs() {
        title: 'swal2-title'
          }
 });
+     setResult("");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -42,28 +45,28 @@ export default function ContactUs() {
       <div className="container">
         <div className="row justify-content-center py-3 ">
           <div className="col-md-5 my-5">
-            <h3 className='h2  text-white my-2'>Contact Us @t : </h3>
+            <h3 className='h2  text-white my-2'>{t("contact.heading")} </h3>
             <p className='text-white fw-bold my-4'><i className="fa-solid fa-phone"></i> : +97 2358740687</p>
             <p className='text-white fw-bold'><i className="fa-solid fa-envelope-circle-check"></i> : info@al-arif.net </p>
-            <p className='text-white fw-bold'><i class="fa-brands fa-facebook"></i> : facebook@al-arif.net </p>
+            <p className='text-white fw-bold'><i className="fa-brands fa-facebook"></i> : facebook@al-arif.net </p>
           </div>
           <div className="col-md-5">
             <div className="contact-card shadow p-4 rounded">
-              <h3 className="form-header text-center mb-3 text-muted">Be in touch</h3>
+              <h3 className="form-header text-center mb-3 text-muted">{t("contact.formTitle")}</h3>
               <form onSubmit={onSubmit}>
-                <div className="mb-3 text-end ">
-                  <label htmlFor="name"  className="form-label">Name</label>
+                <div className="mb-3 text-start">
+                  <label htmlFor="name"  className="form-label">{t("contact.name")}</label>
                   <input required name='name' type="text" className="form-control" id="name"  />
                 </div>
-                <div className="mb-3 text-end">
-                  <label htmlFor="email" className="form-label">Email</label>
+                <div className="mb-3 text-start"> 
+                  <label htmlFor="email" className="form-label">{t("contact.emailLabel")}</label>
                   <input required type="email" name='email' className="form-control" id="email"  />
                 </div>
-                <div className="mb-3 text-end">
-                  <label htmlFor="message" className="form-label">Message</label>
+                <div className="mb-3  text-start">
+                  <label htmlFor="message" className="form-label">{t("contact.message")}</label>
                   <textarea name='message' className="form-control" id="message" rows="4" ></textarea>
                 </div>
-                <button type="submit" className="btn btn-success w-100">Submit</button>
+                <button type="submit" className="btn btn-success w-100"> {result === "Sending...." ? "Sending..." : t("contact.submit")}</button>
               </form>
             </div>
           </div>

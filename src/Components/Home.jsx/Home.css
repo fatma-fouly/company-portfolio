@@ -20,18 +20,24 @@
   z-index: 2; /* عشان النص يكون فوق الطبقة الشفافة */
 }
 .btn2 {
-      background: linear-gradient(0.25turn ,rgb(1, 105, 1), #c3fbcf) !important;
+    background: linear-gradient(0.25turn ,rgb(1, 105, 1), #c3fbcf) !important;
      border: none !important;
      width: 20rem;
-     border-radius: 20px;
+     border-radius: 30px !important;
      color: white;
-     transition: 0.8s all ease-in-out !important;
+     transition: all 1s ease-in-out ;
 }
 .btn2:hover {
   background: linear-gradient(0.25turn ,#aefec0, rgb(1, 105, 1)) !important;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 a{
   color: inherit;
   text-decoration: none;
+}
+
+.awesome::after,
+.awesome::before {
+      box-shadow: none !important;
+    background: none !important;
 }

@@ -7,3 +7,9 @@ font-weight: bold;
 /* width: 90%;     */
 background: linear-gradient(0.45turn ,rgb(1, 105, 1), #c3fbcf) !important;
 }
+
+.slider li button:before {
+  font-size: 12px;       /* حجم النقطة */
+  color: green;          /* اللون */
+  opacity: 0.5;          /* شفافية dots الغير مفعلة */
+}

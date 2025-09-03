@@ -1,19 +1,30 @@
-name: Deploy to Hostinger
+name: Deploy Website via FTP
 
 on:
   push:
     branches:
-      - master
-
+      - master   
 jobs:
   test-secrets:
     runs-on: ubuntu-latest
+       
+
     steps:
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x' 
+
+
       - name: Test FTP secrets
         run: |
-          echo "Host: ${{ secrets.FTP_HOST }}"
-          echo "Username: ${{ secrets.FTP_USERNAME }}"
-          echo "Password length: ${#${{ secrets.FTP_PASSWORD }}}"
+             echo "Host: ${{ secrets.SECRET1 }}"
+             echo "Username: ${{ secrets.SECRET2 }}"
+             PASS="${{ secrets.SECRET3 }}"
+             echo "Password length: ${#PASS}"
+
+
 
   deploy:
     runs-on: ubuntu-latest
@@ -22,17 +33,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Build project
-        run: |
-          npm install
-          npm run build
+        run: npm run build
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.SECRET1  }}
+          server: ${{ secrets.SECRET1 }}
           username: ${{ secrets.SECRET2 }}
           password: ${{ secrets.SECRET3 }}
           protocol: ftp
           local-dir: ./build/
-          server-dir: public_html/
+          server-dir: /public_html/
