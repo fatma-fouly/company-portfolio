@@ -1,12 +1,12 @@
 
-import logo  from '../../assets/logo.png' // Adjust the path as necessary
+import logo  from '../../assets/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useTranslation } from "react-i18next";
 
 
 export default function Navbar() {
-    const { t, i18n } = useTranslation("navbar"); // نستخدم namespace "common"
+    const { t , i18n } = useTranslation("navbar"); 
 
   // to change language 
    const changeLanguage = (lng) => {
@@ -38,8 +38,9 @@ export default function Navbar() {
             <li className="nav-item"><a className="nav-link" href="#testimonials">{t("navbar.testimonials")}</a></li>
             <li className="nav-item"><a className="nav-link" href="#contact">{t("navbar.contact")}</a></li>
       </ul>
+    </div>
         {/* /* Language  * /  */}
-      <div className="ms-3">
+       <div className="ms-3">
         <button   
          onClick={() => {changeLanguage("en");
             console.log("Clicked EN")}  }
@@ -49,7 +50,6 @@ export default function Navbar() {
             console.log("Clicked EN")}}
         >{t("navbar.AR")}</button>
       </div>
-    </div>
   </div>
 </nav>
 

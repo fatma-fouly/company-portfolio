@@ -43,7 +43,8 @@ export default function Services() {
             <div key={service.id} className="col-md-3 border border-1 shadow-sm my-2 h-100">
               <div className="service-card d-flex flex-column justify-content-between h-100 text-start">
                 <div>
-                  <img src={images[service.id]} alt={service.title} height={200} className="w-100 d-block" loading='lazy'/>
+                  <img src={images[service.id]} alt={service.title}
+                  height={200} className="w-100 d-block" loading='lazy'  decoding="async"  />
                   <h4 className="my-2 text-success text-center">{service.title}</h4>
                   <p className= {`px-3 text-truncate-3`}  >{service.description}</p>
                 </div>

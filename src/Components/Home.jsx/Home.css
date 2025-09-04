@@ -12,13 +12,16 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* طبقة شفافة لتوضيح النص */
+  background-color: rgba(0, 0, 0, 0.5); 
 }
-
+.hero-section.ready {
+  opacity: 1;
+}
 .hero-section .container {
   position: relative;
   z-index: 2; /* عشان النص يكون فوق الطبقة الشفافة */
 }
+
 .btn2 {
     background: linear-gradient(0.25turn ,rgb(1, 105, 1), #c3fbcf) !important;
      border: none !important;
