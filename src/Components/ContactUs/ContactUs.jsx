@@ -4,7 +4,7 @@ import Swal  from 'sweetalert2';
 import { useTranslation } from 'react-i18next';
 
 export default function ContactUs() {
-  const { t, i18n } = useTranslation("contact");
+  const { t } = useTranslation("contact");
    const [result , setResult] = React.useState("");
 
   const onSubmit = async (event) => {

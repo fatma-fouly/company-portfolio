@@ -20,46 +20,6 @@ import arfooter from "./locals/ar/footer.json";
 import enfooter from "./locals/en/footer.json";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-// i18n.use(initReactI18next).init({
-  
-//   resources: {
-//     en: {
-//       navbar : en,
-//       home : enhome,
-//       about: enAbout,
-//       services : enservices,
-//       departments: endepartments,
-//       whyus: enwhyus,
-//       testomonial: entestomonial,
-//       contact : encontact,
-//       footer: enfooter,
-
-//     },
-//     ar: {
-//       navbar: ar,
-//       home : arhome,
-//       about: arAbout,
-//       services : arservices,
-//       departments: ardepartments,
-//       whyus: arwhyus,
-//       testomonial: artestomonial,
-//       contact : arcontact,
-//       footer: arfooter,
-      
-//     },
-//   },
-  
-//   lng: "en", // اللغة الافتراضية
-//   fallbackLng: "en",
-//   interpolation: {
-//     escapeValue: false,
-//   },
-// });
-
-// export default i18n;
-
-
-
 i18n
   .use(LanguageDetector) // هنا بنستخدم detector
   .use(initReactI18next)

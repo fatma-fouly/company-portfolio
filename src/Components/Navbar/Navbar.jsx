@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
  <nav className="navbar navbar-expand-lg bg-white shadow opacity-75 fixed-top"> 
   <div className="container">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand" href="#home">
       <img src= {logo} alt='Al-aref logo ' height="72" width="130"  />
     </a>
 

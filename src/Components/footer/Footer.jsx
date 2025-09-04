@@ -11,9 +11,9 @@ export default function Footer() {
           <strong>© 2025 Al-Aref.</strong> {t("rights")}
         </p>
         <p className="mb-2">{t("follow")}
-                    <a href="#" className="text-white ms-2"><i className="fab fa-facebook-f"></i></a>
-                    <a href="#" className="text-white ms-2"><i className="fab fa-twitter"></i></a>
-                    <a href="#" className="text-white ms-2"><i className="fab fa-instagram"></i></a>
+                    <a href="https://web.facebook.com/Alarefbusiness/?_rdc=1&_rdr" target='_blank' className="text-white ms-2"><i className="fab fa-facebook-f"></i></a>
+                    <a href="#home" target='_blank' className="text-white ms-2"><i className="fab fa-twitter"></i></a>
+                    <a href="#home" target='_blank' className="text-white ms-2"><i className="fab fa-instagram"></i></a>
                 </p>
             </div>
        </footer>

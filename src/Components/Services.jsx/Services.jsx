@@ -33,7 +33,7 @@ const images = {
 export default function Services() {
   const { t } = useTranslation("services");
   const services = t("items", { returnObjects: true });
-  const currentLanguage = i18n.language || window.localStorage.i18nextLng || "en";
+  // const currentLanguage = i18n.language || window.localStorage.i18nextLng || "en";
 
   return (
     <div className='services-container'>

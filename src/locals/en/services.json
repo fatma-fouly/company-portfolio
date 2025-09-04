@@ -4,62 +4,62 @@
     {
       "id": 1,
       "title": "Company Formation",
-      "description": "We provide company formation services for various types of businesses, including sole proprietorships and limited liability companies. Our legal experts offer comprehensive consultations on the appropriate company structure and assist you with preparing the required documents and registering with the relevant government authorities..."
+      "description": "We set up companies of all types, including sole proprietorships and limited liability companies. Our legal specialists advise you on the most suitable structure, prepare all required documents, and complete registration with the relevant government authorities."
     },
     {
       "id": 2,
       "title": "Trade License Renewal",
-      "description": "We simplify the process of renewing your trade license to ensure continuity of your business activities. Our team manages the renewal process smoothly..."
+      "description": "We streamline your trade license renewal to keep your business running without interruption. Our team manages the entire process in line with legal requirements, helping you avoid delays, penalties, or compliance issues."
     },
     {
       "id": 3,
-      "title": "Cancellation License",
-      "description": "If you decide to close your business, we offer trade license cancellation services that guide you through the necessary steps and procedures..."
+      "title": "License Cancellation",
+      "description": "If you decide to close your business, we handle the cancellation of your trade license and guide you through every legal step. Our goal is to make the process hassle-free while ensuring full regulatory compliance."
     },
     {
       "id": 4,
       "title": "Bank Account Opening",
-      "description": "Assistance with opening local and international bank accounts through trusted partnerships, giving you the best options for operations..."
+      "description": "Through trusted banking partners, we assist with opening local and international bank accounts. We help you choose suitable options for your operations and ensure a smooth, well-documented onboarding with the bank."
     },
     {
       "id": 5,
       "title": "Corporate Sponsorship",
-      "description": "We provide corporate sponsorship services to help you obtain a reliable local sponsor in compliance with UAE laws..."
+      "description": "We provide reliable corporate sponsorship services in accordance with UAE laws. Our support helps you establish your business securely, protect your interests, and complete your commercial transactions with confidence."
     },
     {
       "id": 6,
-      "title": "Partner Addition",
-      "description": "Whether you wish to add a new partner or withdraw an existing one, we manage the entire process legally and efficiently..."
+      "title": "Partner Additions & Withdrawals",
+      "description": "Whether you need to add a new partner or remove an existing one, we manage the process end-to-end in a lawful and efficient manner. Our legal experts ensure all procedures are completed smoothly while safeguarding your business interests."
     },
     {
       "id": 7,
-      "title": "Government Transaction",
-      "description": "We handle the completion of government transactions and procedures on your behalf, ensuring timely processing of paperwork..."
+      "title": "Government Transactions",
+      "description": "We handle government procedures and formalities on your behalf. Our team prepares and submits official documents on time and keeps you updated at every step, saving you effort while ensuring accuracy and compliance."
     },
     {
       "id": 8,
       "title": "Tourist Visa Services",
-      "description": "We assist travelers in obtaining tourist visas with ease and efficiency. Our team provides full support throughout the application process, ensuring all documents are prepared correctly and submitted on time..."
+      "description": "We help travelers obtain tourist visas quickly and efficiently. From preparing the required documentation to timely submission, our team supports you throughout the application process to maximize approval and minimize delays."
     },
     {
       "id": 9,
       "title": "Family Sponsorship",
-      "description": "We support individuals who wish to bring their family members to join them abroad. Our service guides you through the sponsorship process..."
+      "description": "We support individuals who wish to bring their family members to join them abroad. We guide you through the sponsorship process—from gathering the required documents to submitting the application—ensuring compliance with immigration rules for a smooth family reunion."
     },
     {
       "id": 10,
       "title": "Tax Registration",
-      "description": "We assist businesses in registering with the Federal Tax Authority to obtain a Tax Registration Number (TRN)..."
+      "description": "We assist businesses in registering with the Federal Tax Authority to obtain a Tax Registration Number (TRN). Our service ensures full compliance with UAE tax regulations and provides end-to-end support throughout the application."
     },
     {
       "id": 11,
       "title": "Certificate Attestation",
-      "description": "We provide professional certificate attestation services for academic, personal, and commercial documents..."
+      "description": "We provide professional attestation for academic, personal, and commercial certificates. This ensures your documents are legally recognized within the UAE and internationally, making them valid for official use."
     },
     {
       "id": 12,
-      "title": "Notary Public Services",
-      "description": "We offer notary public services for the legalization of official documents, contracts, and declarations..."
+      "title": "Notary Services",
+      "description": "We offer notary services for the authentication of official documents, contracts, and declarations. Our support ensures notarization is completed in accordance with UAE law, granting your documents full legal validity."
     }
   ]
 }
