@@ -13,7 +13,6 @@ import family from '../../assets/family.png';
 import tax from '../../assets/tax-return-filing.jpg';
 import certificate from '../../assets/certificates.jpg';
 import notary from '../../assets/middle-eastern.jpg';
-import i18n from '../../i18n';
 
 const images = {
   1: formation,

@@ -14,9 +14,10 @@ export default function Navbar() {
     console.log("Language changed to:", lng); 
     document.body.dir = lng === "ar" ? "rtl" : "ltr"; // تغيير الاتجاه
   };
+
   return (
- <nav className="navbar navbar-expand-lg bg-white shadow opacity-75 fixed-top"> 
-  <div className="container">
+  <nav className="navbar navbar-expand-lg bg-white shadow opacity-75 fixed-top"> 
+   <div className="container">
     <a className="navbar-brand" href="#home">
       <img src= {logo} alt='Al-aref logo ' height="72" width="130"  />
     </a>
