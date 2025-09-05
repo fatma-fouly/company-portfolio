@@ -22,12 +22,13 @@ const Home = () => {
   return (
     <>
       {/* 🔹 Loading Overlay */}
-      {!ready && (
-        <div className="fixed inset-0 flex flex-col items-center justify-center bg-white/90 z-50">
-          <div className="animate-spin w-12 h-12 border-4 border-gray-300 border-t-green-600 rounded-full"></div>
-          <p className="mt-4 text-gray-700"> Loading...  </p>
-        </div>
-      )}
+{!ready && (
+  <div className="fixed inset-0 flex flex-col items-center justify-center bg-white/90 z-50">
+    {/* Spinner */}
+    <div className="animate-spin w-12 h-12 border-4 border-gray-300 border-t-green-600 rounded-full"></div>
+      <p className="mt-6 text-gray-700 text-lg font-medium">Loading...</p>
+  </div>
+)}
 
       {/* 🔹 Hero Section */}
       <section className="hero-section d-flex align-items-center" id="home">
