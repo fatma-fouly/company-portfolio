@@ -1,18 +1,20 @@
-
 import './Services.css';
 import { useTranslation } from "react-i18next";
-import formation from '../../assets/company formation.jpg';
-import trade from '../../assets/lisence.jpg';
-import bankimg from '../../assets/credit-card.jpg';
-import cancellation from '../../assets/cancellation.jpg';
-import corporate from '../../assets/corporation.jpg';
-import partner from '../../assets/bussiness advisor.jpg';
-import service2 from '../../assets/holding-trave.jpg';
-import service3 from '../../assets/service 3.jpeg';
-import family from '../../assets/family.png';
-import tax from '../../assets/tax-return-filing.jpg';
-import certificate from '../../assets/certificates.jpg';
-import notary from '../../assets/middle-eastern.jpg';
+import formation from "../../assets/company formation.webp";
+import trade from "../../assets/lisence.webp";
+import bankimg from "../../assets/credit-card.webp";
+import cancellation from "../../assets/cancellation.webp";
+import corporate from "../../assets/corporation.webp";
+import partner from "../../assets/bussiness advisor.webp";
+import service2 from "../../assets/holding-trave.webp";
+import service3 from "../../assets/service 3.webp";
+import family from "../../assets/family.png";
+import tax from "../../assets/tax-return-filing.webp";
+import certificate from "../../assets/certificates.webp";
+import notary from "../../assets/middle-eastern.webp"
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 
 const images = {
   1: formation,
@@ -43,8 +45,33 @@ export default function Services() {
             <div key={service.id} className="col-md-3 border border-1 shadow-sm my-2 h-100">
               <div className="service-card d-flex flex-column justify-content-between h-100 text-start">
                 <div>
-                  <img src={images[service.id]} alt={service.title}
-                  height={200} className="w-100 d-block" loading='lazy'  decoding="async"  />
+                  <LazyLoadImage
+  src={images[service.id]}
+  alt={service.title}
+  height={200}
+  width="100%"
+  loading="lazy"
+  decoding="async"
+  // effect="blur"
+  placeholder={
+    <div
+      style={{
+        width: "100%",
+        height: "200px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        background: "#f9f9f9",
+      }}
+    >
+      {/* Bootstrap spinner */}
+      <div className="spinner-border text-success" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  }
+/>
+
                   <h4 className="my-2 text-success text-center">{service.title}</h4>
                   <p className= {`px-3 text-truncate-3`}  >{service.description}</p>
                 </div>

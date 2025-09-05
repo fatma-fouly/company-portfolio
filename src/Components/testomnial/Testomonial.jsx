@@ -1,8 +1,8 @@
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Sletter from '../../assets/s letter.jpeg'; 
-import Mletter from '../../assets/m letter.jpeg';
+import Sletter from '../../assets/s letter.webp'; 
+import Mletter from '../../assets/m letter.webp';
 import './testimonial.css'; 
 import { useTranslation } from 'react-i18next';
 

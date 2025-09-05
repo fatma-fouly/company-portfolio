@@ -1,6 +1,6 @@
 .hero-section {
   height: 100vh; /* يخلي الهيرو يغطي طول الشاشة */
-  background: url("../../assets/desert-road-with-duba.jpg") center no-repeat ;
+  background: url("../../assets/desert-road-with-duba.webp") center no-repeat ;
   background-size: cover;
   position: relative;
 }

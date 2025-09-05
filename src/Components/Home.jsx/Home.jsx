@@ -2,7 +2,7 @@ import { AwesomeButton } from "react-awesome-button";
 import "./Home.css";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
-import heroImg from "../../assets/desert-road-with-duba.jpg";
+import heroImg from "../../assets/desert-road-with-duba.webp";
 
 const Home = () => {
   const { t } = useTranslation("home");
@@ -25,7 +25,7 @@ const Home = () => {
       {!ready && (
         <div className="fixed inset-0 flex flex-col items-center justify-center bg-white/90 z-50">
           <div className="animate-spin w-12 h-12 border-4 border-gray-300 border-t-green-600 rounded-full"></div>
-          <p className="mt-4 text-gray-700">جارٍ تحميل الصفحة...</p>
+          <p className="mt-4 text-gray-700"> Loading...  </p>
         </div>
       )}
 

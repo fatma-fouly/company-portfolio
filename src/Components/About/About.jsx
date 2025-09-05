@@ -1,4 +1,4 @@
-import about from '../../assets/about us.jpg'
+import about from '../../assets/about us.webp'
 import './About.css'
 import { useTranslation } from 'react-i18next';
 
