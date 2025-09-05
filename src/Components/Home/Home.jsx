@@ -21,38 +21,40 @@ const Home = () => {
 
   return (
     <>
-      {/* 🔹 Loading Overlay */}
-{!ready && (
+      {!ready ? (
   <div className="fixed inset-0 flex flex-col items-center justify-center bg-white/90 z-50">
     {/* Spinner */}
     <div className="animate-spin w-12 h-12 border-4 border-gray-300 border-t-green-600 rounded-full"></div>
-      <p className="mt-6 text-gray-700 text-lg font-medium">Loading...</p>
+    <p className="mt-6 text-gray-700 text-lg font-medium animate-pulse">
+      Loading...
+    </p>
   </div>
+) : (
+  // Hero Section
+  <section className="hero-section d-flex align-items-center" id="home">
+    <div className="container text-center text-white">
+      <h1 className="display-4 fw-bold">{t("title")}</h1>
+      <p className="lead fw-bold my-3">{t("subtitle")}</p>
+
+      <a href="#contact">
+        <AwesomeButton
+          size="large"
+          type="custom"
+          className="awesome"
+          style={{
+            background: "linear-gradient(45deg, #01a569, #c3fbcf)",
+            color: "white",
+            borderRadius: "30px",
+            boxShadow: "none",
+          }}
+        >
+          {t("contact")}
+        </AwesomeButton>
+      </a>
+    </div>
+  </section>
 )}
 
-      {/* 🔹 Hero Section */}
-      <section className="hero-section d-flex align-items-center" id="home">
-        <div className="container text-center text-white">
-          <h1 className="display-4 fw-bold">{t("title")}</h1>
-          <p className="lead fw-bold my-3">{t("subtitle")}</p>
-
-          <a href="#contact">
-            <AwesomeButton
-              size="large"
-              type="custom"
-              className="awesome"
-              style={{
-                background: "linear-gradient(45deg, #01a569, #c3fbcf)",
-                color: "white",
-                borderRadius: "30px",
-                boxShadow: "none",
-              }}
-            >
-              {t("contact")}
-            </AwesomeButton>
-          </a>
-        </div>
-      </section>
     </>
   );
 };
