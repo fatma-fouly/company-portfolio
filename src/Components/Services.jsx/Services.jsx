@@ -8,7 +8,7 @@ import corporate from "../../assets/corporation.webp";
 import partner from "../../assets/bussiness advisor.webp";
 import service2 from "../../assets/holding-trave.webp";
 import service3 from "../../assets/service 3.webp";
-import family from "../../assets/family.png";
+import family from "../../assets/family.webp";
 import tax from "../../assets/tax-return-filing.webp";
 import certificate from "../../assets/certificates.webp";
 import notary from "../../assets/middle-eastern.webp"

@@ -39,3 +39,7 @@ body.en .service-card h4,
 body.en .service-card p {
   text-align: left;
 }
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
